@@ -27,4 +27,4 @@ Get your clustered points with bbox and zoom.
 List<Feature> clusters = superCluster.getClusters(new double[]{32.34375, 39.90973623453719, 32.6953125, 40.17887331434696}, 10);
 ```
 
-<a href="https://utahemre.github.io/geojsonautocompletedemo.html" target="_blank">You can find example here</a>
+<a href="https://github.com/utahemre/JavaSuperCluster/blob/master/src/main/java/example/SuperClusterExample.java" target="_blank">You can find example here</a>
