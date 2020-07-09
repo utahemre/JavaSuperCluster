@@ -35,7 +35,7 @@ public class SuperClusterExample {
 
             List<Feature> clusters = superCluster.getClusters(new double[]{32.34375, 39.90973623453719, 32.6953125, 40.17887331434696}, 10);
             
-            System.out.println("Cluster count int this bbox is " + clusters.size());
+            System.out.println("Cluster count in this bbox is " + clusters.size());
         } catch (IOException ex) {
             Logger.getLogger(SuperClusterExample.class.getName()).log(Level.SEVERE, null, ex);
         }
